@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StayZen - Hospedagens memoráveis</title>
+  <style>
+    
 
+    
+.layout-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+      }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: 0 auto;
+    }
+
+    /* Navegação */
+    .nav {
+      background: #fff;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #e63946;
+      text-decoration: none;
+    }
+
+    .menu {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+      padding: 0.4rem 0.6rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .menu a:hover {
+      background: #e63946;
+      color: #fff;
+    }
+
+    .btn {
+      background: #e63946;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #f1f3f5, #dee2e6);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin: 3rem 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card h3 {
+      padding: 1rem 1rem 0.5rem;
+    }
+
+    .card p {
+      padding: 0 1rem 1rem;
+      color: #555;
+    }
+
+    /* Rodapé */
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #fff;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav container">
+    <a href="#" class="logo">StayZen</a>
+    <nav class="menu">
+      <a href="#">Início</a>
+      <a href="#">Explorar</a>
+      <a href="#">Favoritos</a>
+      <a href="#" class="btn">Cadastre-se</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Hospedagens únicas para momentos inesquecíveis</h1>
+      <p>Descubra casas, cabanas e apartamentos em lugares incríveis.</p>
+      <a href="#" class="btn">Comece a explorar</a>
+    </div>
+  </section>
+
+  <section class="grid container">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Cabana na montanha" />
+      <h3>Cabana na montanha</h3>
+      <p>Vista deslumbrante e lareira aconchegante.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Apartamento urbano" />
+      <h3>Apartamento urbano</h3>
+      <p>Localização central e design moderno.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Casa na praia" />
+      <h3>Casa na praia</h3>
+      <p>Som das ondas e pôr do sol inesquecível.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 StayZen. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
