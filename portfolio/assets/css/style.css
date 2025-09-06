@@ -8,7 +8,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f9fafb;
-  color: #111;
+  color: hsl(0, 0%, 2%);
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 .logo {
   font-weight: 800;
   text-decoration: none;
-  color: #111;
+  color: #ca1010;
 }
 
 .menu {
@@ -69,8 +69,10 @@ body {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 2px rgba(204, 40, 40, 0.04);
+  margin-bottom: 10px;
 }
+
 
 .skills {
   display: flex;
@@ -84,4 +86,46 @@ body {
   padding: 1rem;
   margin-top: 2rem;
   color: #6b7280;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sobre p {
+  font-size: 1rem;
+  line-height: 1.6;
+  word-spacing: 0.05rem;
+  letter-spacing: 0.3px;
+}
+
+.sobre ul {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.sobre li {
+  margin-bottom: 0.4rem;
+}
+
+h1 {
+  margin-bottom: 20px; 
+}
+
+p {
+  margin-bottom: 20px; 
+}
+
+button {
+  margin-top: 20px; 
+
 }
